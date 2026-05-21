@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#FFD6E8"/>
+      <stop offset="1" stop-color="#B84DFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" rx="20" fill="url(#g)" opacity="0.18"/>
+
+  <g transform="translate(80,80)">
+    <circle cx="220" cy="110" r="70" fill="#fff" opacity="0.12" />
+    <g>
+      <rect x="60" y="200" width="360" height="220" rx="18" fill="#fff" opacity="0.9" />
+      <text x="140" y="270" font-family="sans-serif" font-size="24" fill="#1f2937">Queens of Change</text>
+      <text x="140" y="310" font-family="sans-serif" font-size="16" fill="#4b5563">Community • Education • Leadership</text>
+    </g>
+    <g transform="translate(280,20)">
+      <path d="M40 0c22 0 40 18 40 40s-18 40-40 40-40-18-40-40S18 0 40 0z" fill="#fff" opacity="0.95"/>
+      <circle cx="40" cy="40" r="12" fill="#B84DFF"/>
+    </g>
+  </g>
+</svg>

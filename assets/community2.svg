@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540">
+  <defs>
+    <linearGradient id="h" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fff1f7"/>
+      <stop offset="100%" stop-color="#ffd6ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="540" rx="40" fill="#fff5fb"/>
+  <rect x="22" y="18" width="676" height="504" rx="34" fill="url(#h)" stroke="#ff7bae" stroke-width="6"/>
+  <path d="M180 190a80 80 0 1 1 160 0 80 80 0 1 1 -160 0" fill="#ffbfd8"/>
+  <path d="M420 240a70 70 0 1 0 140 0 70 70 0 1 0 -140 0" fill="#ffacd1"/>
+  <rect x="120" y="350" width="160" height="110" rx="44" fill="#ffc1db"/>
+  <rect x="380" y="340" width="190" height="120" rx="44" fill="#ffa3c3"/>
+  <circle cx="500" cy="140" r="24" fill="#ffe4f1"/>
+  <text x="50%" y="88%" fill="#8b2f59" font-size="42" font-family="Inter, sans-serif" font-weight="700" text-anchor="middle">Community Photo 2</text>
+</svg>

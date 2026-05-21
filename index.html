@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Queens Of Change Foundation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <a class="logo" href="index.html">
+        <h1>Queens Of Change</h1>
+        <p class="tagline">Empowering women, transforming communities</p>
+      </a>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="programs.html">Programs</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+      <a href="donate.html" class="donate">Donate</a>
+    </nav>
+    <div class="controls">
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
+      <button id="themeToggle" aria-pressed="false" title="Toggle dark mode">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <span class="hero-note">Breaking stigma, building dignity</span>
+        <h2>Empowering Women & Girls Through Menstrual Health & Education</h2>
+        <p>Queens of Change Foundation ensures no woman or girl misses school, work, or opportunity due to lack of menstrual health resources. We provide sanitary pads, health education, and empowerment opportunities across underprivileged communities in India.</p>
+        <div class="hero-actions">
+          <button id="volunteerBtn" class="btn primary">Volunteer</button>
+          <a class="btn ghost" href="#about">Learn More</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="assets/hero.svg" alt="Illustration: women and growth" />
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h3>About Queens Of Change</h3>
+      <p>Queens of Change Foundation is a women-led NGO dedicated to transforming the lives of underprivileged women and girls across India. We believe that menstrual health should never be a barrier to dignity, education, or opportunity. Founded on the principle that every woman deserves respect and support, we work directly in communities to provide sanitary pads, health education, and empowerment opportunities.</p>
+
+      <div class="cards">
+        <article class="card">
+          <span class="card-emoji">🌸</span>
+          <h4>Sanitary Pad Distribution</h4>
+          <p>Free, high-quality pads ensuring girls never miss school or work.</p>
+        </article>
+        <article class="card">
+          <span class="card-emoji">📚</span>
+          <h4>Health Education</h4>
+          <p>Culturally-sensitive awareness programs breaking stigma and myths.</p>
+        </article>
+        <article class="card">
+          <span class="card-emoji">💪</span>
+          <h4>Women Empowerment</h4>
+          <p>Skill development and mentorship creating economic independence.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container reveal">
+      <div class="section-lead">Every woman and girl deserves dignity, health, and opportunity. Our work is measured in lifted stigma, educated communities, and empowered lives.</div>
+      <div class="impact-grid">
+        <article class="impact-card">
+          <h4>2,00,000+</h4>
+          <p>Free Sanitary Pads Distributed</p>
+        </article>
+        <article class="impact-card">
+          <h4>500+</h4>
+          <p>Communities Reached Across India</p>
+        </article>
+        <article class="impact-card">
+          <h4>50,000+</h4>
+          <p>Lives Directly Impacted</p>
+        </article>
+        <article class="impact-card">
+          <h4>100%</h4>
+          <p>Women-Led Organization</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container contact reveal" id="contact">
+      <div class="contact-copy">
+        <span class="hero-note">Let's shape the next chapter together</span>
+        <h3>Connect with Queens Of Change</h3>
+        <p>Whether you want to volunteer, partner, or support our programs, send us a message and we’ll respond within one business day.</p>
+      </div>
+      <form id="contactForm" class="contact-form" action="#" method="post">
+        <div class="form-grid">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required>
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="hello@example.com" required>
+          </label>
+        </div>
+        <label>
+          Message
+          <textarea name="message" rows="5" placeholder="Tell us how you'd like to help" required></textarea>
+        </label>
+        <div class="form-actions">
+          <button class="btn primary" type="submit">Send Message</button>
+          <span class="form-hint">Or email us directly at <a href="mailto:info@queensofchange.org">info@queensofchange.org</a></span>
+        </div>
+      </form>
+    </section>
+
+    <div id="contactToast" class="toast" role="status" aria-live="polite">Message sent! Thanks for supporting our mission to break stigma and empower women.</div>
+  </main>
+
+  <footer class="site-footer">
+    <div>© <span id="year"></span> Queens Of Change Foundation — Breaking Stigma, Building Dignity</div>
+    <div>Designed by Manish Sharma</div>
+  </footer>
+
+  <!-- Modal -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-panel" role="dialog" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close">✕</button>
+      <h3 id="modalTitle">Volunteer with Us</h3>
+      <p>Thanks for your interest! Please contact us at <strong>info@queensofchange.org</strong> or fill the volunteer form on our site.</p>
+      <a class="btn primary" href="mailto:info@queensofchange.org">Email Us</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

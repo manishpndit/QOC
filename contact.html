@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Queens Of Change Foundation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-contact">
+  <header class="site-header">
+    <div class="brand">
+      <a class="logo" href="index.html">
+        <h1>Queens Of Change</h1>
+        <p class="tagline">Empowering women, transforming communities</p>
+      </a>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="programs.html">Programs</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="donate.html" class="donate">Donate</a>
+    </nav>
+    <div class="controls">
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
+      <button id="themeToggleTop5" aria-pressed="false" title="Toggle dark mode">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="container contact reveal contact-page-hero">
+      <div class="contact-copy">
+        <span class="hero-note">Meet our team and share your ideas</span>
+        <h2>Contact Queens Of Change</h2>
+        <p>Whether you want to join our volunteer roster, explore partnership opportunities, or learn more about our programs, we’d love to hear from you.</p>
+      </div>
+      <form id="contactForm" class="contact-form" action="#" method="post">
+        <div class="form-grid">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required>
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="hello@example.com" required>
+          </label>
+        </div>
+        <label>
+          Message
+          <textarea name="message" rows="6" placeholder="Tell us how you'd like to help" required></textarea>
+        </label>
+        <div class="form-actions">
+          <button class="btn primary" type="submit">Send Message</button>
+          <span class="form-hint">Alternatively, email us at <a href="mailto:info@queensofchange.org">info@queensofchange.org</a>.</span>
+        </div>
+      </form>
+    </section>
+
+    <div id="contactToast" class="toast" role="status" aria-live="polite">Message sent. Thanks for reaching out!</div>
+  </main>
+
+  <footer class="site-footer">
+    <div>© <span id="year-contact"></span> Queens Of Change Foundation — Breaking Stigma, Building Dignity</div>
+    <div>Designed by Manish Sharma</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

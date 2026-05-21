@@ -1,0 +1,16 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Node and IDE files
+node_modules/
+.vscode/
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~

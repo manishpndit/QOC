@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gallery — Queens Of Change Foundation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-gallery">
+  <header class="site-header">
+    <div class="brand">
+      <a class="logo" href="index.html">
+        <h1>Queens Of Change</h1>
+        <p class="tagline">Empowering women, transforming communities</p>
+      </a>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="programs.html">Programs</a>
+      <a href="gallery.html" class="active">Gallery</a>
+      <a href="contact.html">Contact</a>
+      <a href="donate.html" class="donate">Donate</a>
+    </nav>
+    <div class="controls">
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
+      <button id="themeToggleTop3" aria-pressed="false" title="Toggle dark mode">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="container">
+      <h2 class="reveal">Gallery</h2>
+      <p class="reveal">Moments from our programs and community events.</p>
+
+      <div class="gallery-grid">
+        <button class="gallery-item reveal" data-src="assets/gallery-w14.jpeg">
+          <img src="assets/gallery-w14.jpeg" alt="Community support event">
+          <div class="gallery-caption">Community support event</div>
+        </button>
+        <button class="gallery-item reveal" data-src="assets/gallery-w12.jpeg">
+          <img src="assets/gallery-w12.jpeg" alt="Women discussing health awareness">
+          <div class="gallery-caption">Health awareness session</div>
+        </button>
+        <button class="gallery-item reveal" data-src="assets/gallery-q.jpeg">
+          <img src="assets/gallery-q.jpeg" alt="Girls learning together">
+          <div class="gallery-caption">Girls learning together</div>
+        </button>
+        <button class="gallery-item reveal" data-src="assets/gallery-download1.jpg">
+          <img src="assets/gallery-download1.jpg" alt="Neighborhood outreach program">
+          <div class="gallery-caption">Neighborhood outreach</div>
+        </button>
+        <button class="gallery-item reveal" data-src="assets/gallery-download2.jpg">
+          <img src="assets/gallery-download2.jpg" alt="Empowered smiling children">
+          <div class="gallery-caption">Empowered smiles</div>
+        </button>
+        <button class="gallery-item reveal" data-src="assets/gallery-a26.jpeg">
+          <img src="assets/gallery-a26.jpeg" alt="Community gathering outdoors">
+          <div class="gallery-caption">Community gathering</div>
+        </button>
+      </div>
+    </section>
+
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+      <button id="lbClose" class="lb-close">✕</button>
+      <img id="lbImg" src="" alt="" />
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div>© <span id="year-gallery"></span> Queens Of Change Foundation — Breaking Stigma, Building Dignity</div>
+    <div>Designed by Manish Sharma</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
