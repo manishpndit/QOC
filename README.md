@@ -23,7 +23,3 @@ You can preview the live HTML pages directly using RawGitHack preview links:
 - `donate.html` — Donate page
 - `styles.css` — Site styling
 - `script.js` — Interactive behavior
-
-## Notes
-
-If you want, I can also help enable GitHub Pages for this repository so it can be previewed directly from `https://manishpndit.github.io/QOC/`.
